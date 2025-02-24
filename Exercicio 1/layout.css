@@ -1,0 +1,85 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    padding: 2rem;
+    background: lavender;
+    border-radius: 25px;
+    box-shadow: 15px 15px 0 black;
+    border: 5px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.LabelInput{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    color: blueviolet;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+label{
+    margin-bottom: .25rem;
+}
+
+input, textarea{
+    background: white;
+    border: 1px solid blueviolet;
+    padding: .25rem .5rem;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px blueviolet;
+}
+
+button{
+    padding: .5rem;
+    margin-top: 1rem;
+    background: blueviolet;
+    box-shadow: 5px 5px black;
+    border: 1px solid black;
+    color: white;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    border-radius: 15px;
+    transition: all 0.2s;
+}
+
+button:hover{
+    background-color: rgb(93, 36, 146);
+    cursor: pointer;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: system-ui;
+    color: blueviolet;
+    text-shadow: 4px 4px black;
+    -webkit-text-stroke: 1px black;
+}
+
+h2{
+    font-family: system-ui;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+strong{
+    border-bottom: 4px solid blueviolet;
+}
