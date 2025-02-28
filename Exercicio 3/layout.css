@@ -1,0 +1,61 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    padding: 2rem;
+    background: aliceblue;
+    box-shadow: 0 0 10px black;
+    border: 5px solid dodgerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.LabelInput{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    color: dodgerblue;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+label{
+    margin-bottom: .25rem;
+}
+
+input, textarea{
+    background: white;
+    border: 1px solid dodgerblue;
+    padding: .25rem .5rem;
+    font-family: system-ui;
+    font-size: 1.25rem;
+}
+
+button{
+    padding: .5rem;
+    margin-top: 1rem;
+    background: dodgerblue;
+    border: 1px solid black;
+    color: white;
+    font-family: system-ui;
+    font-size: 1.25rem;
+    transition: all 0.2s;
+}
+
+button:hover{
+    background-color: #0b3f71;
+    cursor: pointer;
+}
