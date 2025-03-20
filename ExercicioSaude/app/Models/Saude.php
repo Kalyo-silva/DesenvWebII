@@ -45,7 +45,7 @@ class Saude extends Model
 
         $imc = $this->peso / ($this->altura**2);
 
-        $this->data['imc'] = $imc;
+        $this->data['imc'] = Round($imc,2);
 
         return $this->data;
     }
