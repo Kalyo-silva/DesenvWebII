@@ -1,18 +1,12 @@
 @extends('layout.app')
 @section('subtile', "Página Inicial")
 @section('content')
-    <h1>Calculadora IMC</h1>
-    <p>Esta aplicação realiza o calculo do IMC, desde que informado o Peso e Altura.</p>
-
-    <form action="result">
-        <label for="Nome">Nome</label>
-        <input type="text" name="Nome" id="Nome">
-        <label for="Nasc">Data de Nascimento</label>
-        <input type="date" name="Nasc" id="Nasc">
-        <label for="Peso">Peso</label>
-        <input type="number" name="Peso" id="Peso" step="0.01" min="0" max="200">
-        <label for="Alt">Altura</label>
-        <input type="number" name="Alt" id="Alt" step="0.01" min="0" max="2.5">
-        <button type="submit">Enviar</button>
-    </form>
+    <h1>Exercício 4</h1>
+    <p style = "Margin: 0;">Escolha a sua Aplicação</p>
+    <hr>
+    <ul>
+        <li><a href="{{url('/IMC')}}">IMC</a></li>
+        <li><a href="{{url('/sleep')}}">Qualidade do Sono</a></li>
+        <li><a href="{{url('/travel')}}">Custo de Viagem</a></li>
+    </ul>
 @endsection
